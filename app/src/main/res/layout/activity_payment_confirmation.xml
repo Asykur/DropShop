@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_background"
+    android:orientation="vertical"
+    tools:context=".Activity.PaymentConfirmationActivity">
+
+    <include
+        android:id="@+id/toolbarConf"
+        layout="@layout/view_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbarConf"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbarConf"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:text="Data Pengirim"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etNoRekHolder"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@android:color/black"
+                android:inputType="number"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/stroke_rounded"
+                android:hint="Nomor Rekening"
+                android:singleLine="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etNamaRekHolder"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/stroke_rounded"
+                android:hint="Nama Sesuai Rekening"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etNamaBankHolder"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="6dp"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:textColor="@android:color/black"
+                android:background="@drawable/stroke_rounded"
+                android:hint="Bank Pengirim"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etNominal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="6dp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/stroke_rounded"
+                android:singleLine="true"
+                android:hint="Nominal"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etTanggalTrf"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="6dp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/stroke_rounded"
+                android:singleLine="true"
+                android:focusable="false"
+                android:hint="dd-mm-yyyy"
+                android:windowSoftInputMode="stateHidden|adjustResize"
+                android:inputType="datetime"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:singleLine="true"
+                android:text="Data Tujuan"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etNoRekDest"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/stroke_rounded"
+                android:singleLine="true"
+                android:hint="Rekening Tujuan"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etNamaBankDest"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/stroke_rounded"
+                android:hint="Bank Tujuan"
+                android:inputType="textCapWords"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp" />
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:foreground="?android:attr/selectableItemBackground"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginTop="4dp">-->
+
+                <!--<ImageButton-->
+                    <!--android:id="@+id/btnUploadBukti"-->
+                    <!--android:layout_width="120dp"-->
+                    <!--android:layout_height="120dp"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:layout_marginBottom="2dp"-->
+                    <!--android:background="@color/white"-->
+                    <!--android:foreground="?android:attr/selectableItemBackground"-->
+                    <!--android:src="@drawable/ic_add_a_photo"-->
+                    <!--android:visibility="visible" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/imgPhotoBukti"-->
+                    <!--android:layout_width="120dp"-->
+                    <!--android:layout_height="120dp"-->
+                    <!--android:layout_margin="2dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:visibility="gone" />-->
+
+
+            <!--</android.support.v7.widget.CardView>-->
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/imgPhotoBukti"
+                android:background="@drawable/background_rounded_orange"
+                android:text="Konfirmasi"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/btnKonfirmasi"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

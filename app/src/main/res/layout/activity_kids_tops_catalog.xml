@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.Kids.KidsTopsCatalogActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarTopKids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/tbTopKids"
+                layout="@layout/view_toolbar" />
+
+            <include
+                layout="@layout/circle_search_toolbar"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:id="@+id/tabsTopKids"
+            app:tabIndicatorColor="@color/white"
+            app:tabGravity="fill"
+            app:tabTextColor="@color/tabTextColor"
+            app:tabSelectedTextColor="@color/white"
+            android:elevation="2dp"
+            app:tabIndicatorHeight="3dp">
+
+        </android.support.design.widget.TabLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/containerTopKids">
+
+    </android.support.v4.view.ViewPager>
+
+
+</android.support.design.widget.CoordinatorLayout>

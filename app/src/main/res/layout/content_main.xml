@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyf4f4f4"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="asykurkhamid.dropshop.Activity.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relaSlider"
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPagerSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true" />
+
+                <me.relex.circleindicator.CircleIndicator
+                    android:id="@+id/indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true">
+
+                </me.relex.circleindicator.CircleIndicator>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imgManFashion"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="10dp"
+                android:elevation="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/relaSlider"
+                android:src="@drawable/man_fashion" />
+
+            <ImageView
+                android:id="@+id/imgWomanFashion"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:elevation="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imgManFashion"
+                android:src="@drawable/women_fashion" />
+
+            <ImageView
+                android:id="@+id/imgKidsFashion"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:elevation="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imgWomanFashion"
+                android:src="@drawable/kids_fashion" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

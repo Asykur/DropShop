@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "693667080892",
+    "firebase_url": "https://dropshop-f4360.firebaseio.com",
+    "project_id": "dropshop-f4360",
+    "storage_bucket": "dropshop-f4360.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693667080892:android:e10d4fac3c20825f",
+        "android_client_info": {
+          "package_name": "asykurkhamid.dropshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693667080892-d1jc715etr64hmv3khlral416cf2fuel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "asykurkhamid.dropshop",
+            "certificate_hash": "72d75c9a9487b8f547d0957e4fa0acd25f33a793"
+          }
+        },
+        {
+          "client_id": "693667080892-tvc7umidat00dja619a2c9fv74d2hagj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASgO8oxiNUum_CEghJMc7qLL7fIDUnsoE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693667080892-tvc7umidat00dja619a2c9fv74d2hagj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

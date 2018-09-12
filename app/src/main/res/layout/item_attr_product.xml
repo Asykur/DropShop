@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/crdItemAttr"
+        android:layout_margin="4dp"
+        app:cardCornerRadius="5dp"
+        android:background="@color/greyf4f4f4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvAttrSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="1"
+                android:hint="ukuran" />
+
+            <TextView
+                android:id="@+id/tvAttrColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:hint="Warna" />
+            <TextView
+                android:id="@+id/tvAttrStock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="1"
+                android:hint="stok" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

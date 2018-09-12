@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <group android:checkableBehavior="single">
+            <item android:title="Produk">
+                <menu>
+                    <item
+                        android:id="@+id/nav_pria"
+                        android:title="Pria"
+                        android:icon="@drawable/ic_man"/>
+                    <item
+                        android:id="@+id/nav_wanita"
+                        android:title="Wanita"
+                        android:icon="@drawable/ic_women"/>
+                    <item
+                        android:id="@+id/nav_anak"
+                        android:title="Anak"
+                        android:icon="@drawable/ic_children"/>
+                </menu>
+            </item>
+
+
+        </group>
+
+    <item android:title="Transaksi">
+        <menu>
+
+            <item
+                android:id="@+id/nav_Pembayaran"
+                android:title="Pembayaran"
+                android:icon="@drawable/ic_confirmation"/>
+            <item
+                android:id="@+id/nav_keranjang"
+                android:title="Keranjang"
+                android:icon="@drawable/ic_shopping_bag"/>
+
+        </menu>
+    </item>
+
+
+    <item android:title="Akun">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/nav_admin"-->
+                <!--android:title="Admin"-->
+                <!--android:icon="@drawable/ic_admin"/>-->
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Keluar"
+                android:icon="@drawable/ic_logout"/>
+        </menu>
+    </item>
+
+</menu>

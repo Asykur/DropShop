@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">DropShop</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="back"><![CDATA[< Back]]></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="jumlah_order">Jumlah Order :</string>
+    <string name="sub_total">Sub Total :</string>
+
+    <string-array name="ukuran">
+        <item>Ukuran</item>
+        <item>SS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+    </string-array>
+    <string-array name="warna">
+        <item>Warna</item>
+        <item>Hitam</item>
+        <item>Putih</item>
+        <item>Merah</item>
+        <item>Hijau</item>
+        <item>Kuning</item>
+        <item>Biru</item>
+        <item>Orange</item>
+        <item>Ungu</item>
+    </string-array>
+    <string-array name="grosir">
+        <item>0</item>
+        <item>12</item>
+        <item>24</item>
+        <item>36</item>
+        <item>48</item>
+        <item>60</item>
+        <item>72</item>
+        <item>84</item>
+        <item>96</item>
+        <item>108</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="satuan">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="kurir">
+        <item>Kurir</item>
+        <item>JNE</item>
+        <item>TIKI</item>
+    </string-array>
+    <string-array name="pengiriman">
+        <item>Pengiriman</item>
+        <item>Reguler</item>
+        <item>Express</item>
+    </string-array>
+
+    <string name="trans_slider_page">trans_slider_page</string>
+    <string name="trans_thumb_picture">tumb_picture</string>
+
+</resources>
